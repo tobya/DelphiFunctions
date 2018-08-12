@@ -5,11 +5,7 @@
 * in the representation of the max longint value.  
 * The source could easily be updated to do larger numbers if need be.
 * Send me a copy. This is Freeware, noteware, feedbackware whatever you want.  
-* Toby_allen@hotmail.com
-
-* Updated 15/08/2001
-* Tidied UP.
-*******************************************************************}
+* }
 
 {Use:
 Fairly simple.  Just call GetAlphaRep with two arguments.  First argument is the 
@@ -17,7 +13,6 @@ number you wish to have converted, the second is a boolean indicating whether or
 to use the fullalphabet or a subset that doesnt use I & O due to being easily 
 mistaken for 1 or 0.  One word of warning use one or other value for an entire 
 application do not mix unless you know what your doing.
-
 }
 
 unit TFMAlphaRep;
